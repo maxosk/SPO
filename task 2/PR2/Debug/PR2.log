@@ -1,0 +1,62 @@
+﻿  PR2.cpp
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(3,519): error C2065: 'WndProc': undeclared identifier
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(7,675): error C2065: 'WC_LISTBOXW': undeclared identifier
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(11,3): error C3861: 'OpenDialogText': identifier not found
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(14,256): error C3861: 'SaveDialogText': identifier not found
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(17,476): error C2664: 'void LoadFileText(LPSTR)': cannot convert argument 1 from 'LPWSTR' to 'LPSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(17,466): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(3,6): message : see declaration of 'LoadFileText'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(20,349): error C2664: 'void SaveFileText(LPSTR)': cannot convert argument 1 from 'LPWSTR' to 'LPSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(20,339): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(3,32): message : see declaration of 'SaveFileText'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(22,152): error C2664: 'HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)': cannot convert argument 1 from 'LPSTR' to 'LPCWSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(22,101): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Windows Kits\10\Include\10.0.18362.0\um\fileapi.h(100,1): message : see declaration of 'CreateFileW'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(22,411): error C2664: 'BOOL SetWindowTextW(HWND,LPCWSTR)': cannot convert argument 2 from 'LPSTR' to 'LPCWSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(22,403): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8902,1): message : see declaration of 'SetWindowTextW'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(22,437): warning C4018: '<': signed/unsigned mismatch
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(22,454): error C3861: 'sprintf': identifier not found
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(22,556): error C2664: 'BOOL SetWindowTextW(HWND,LPCWSTR)': cannot convert argument 2 from 'LPSTR' to 'LPCWSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(22,550): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8902,1): message : see declaration of 'SetWindowTextW'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(25,160): error C2664: 'HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)': cannot convert argument 1 from 'LPSTR' to 'LPCWSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(25,108): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Windows Kits\10\Include\10.0.18362.0\um\fileapi.h(100,1): message : see declaration of 'CreateFileW'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(25,247): error C2664: 'int GetWindowTextW(HWND,LPWSTR,int)': cannot convert argument 2 from 'LPSTR' to 'LPWSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(25,239): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8923,1): message : see declaration of 'GetWindowTextW'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(25,833): error C2664: 'void LoadFileBin(LPSTR)': cannot convert argument 1 from 'LPWSTR' to 'LPSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(25,823): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(3,123): message : see declaration of 'LoadFileBin'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(28,382): error C2664: 'void SaveFileBin(LPSTR)': cannot convert argument 1 from 'LPWSTR' to 'LPSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(28,372): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(3,148): message : see declaration of 'SaveFileBin'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(30,134): error C2664: 'HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)': cannot convert argument 1 from 'LPSTR' to 'LPCWSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(30,83): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Windows Kits\10\Include\10.0.18362.0\um\fileapi.h(100,1): message : see declaration of 'CreateFileW'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(30,408): warning C4018: '<': signed/unsigned mismatch
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(30,425): error C3861: 'sprintf': identifier not found
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(30,518): error C2664: 'BOOL SetWindowTextW(HWND,LPCWSTR)': cannot convert argument 2 from 'LPSTR' to 'LPCWSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(30,515): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8902,1): message : see declaration of 'SetWindowTextW'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(31,12): warning C4018: '<': signed/unsigned mismatch
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(33,9): error C3861: 'sprintf': identifier not found
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(34,38): error C2664: 'BOOL SetWindowTextW(HWND,LPCWSTR)': cannot convert argument 2 from 'LPSTR' to 'LPCWSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(34,35): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8902,1): message : see declaration of 'SetWindowTextW'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(35,57): error C2664: 'BOOL SetWindowTextW(HWND,LPCWSTR)': cannot convert argument 2 from 'LPSTR' to 'LPCWSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(35,49): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8902,1): message : see declaration of 'SetWindowTextW'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(35,103): warning C4018: '<': signed/unsigned mismatch
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(35,120): error C3861: 'sprintf': identifier not found
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(35,221): error C2664: 'BOOL SetWindowTextW(HWND,LPCWSTR)': cannot convert argument 2 from 'LPSTR' to 'LPCWSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(35,215): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8902,1): message : see declaration of 'SetWindowTextW'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(36,159): error C2664: 'HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)': cannot convert argument 1 from 'LPSTR' to 'LPCWSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(36,107): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Windows Kits\10\Include\10.0.18362.0\um\fileapi.h(100,1): message : see declaration of 'CreateFileW'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(36,244): error C2664: 'int GetWindowTextW(HWND,LPWSTR,int)': cannot convert argument 2 from 'LPSTR' to 'LPWSTR'
+C:\Users\maxos\source\repos\PR2\PR2\PR2.cpp(36,236): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8923,1): message : see declaration of 'GetWindowTextW'

@@ -1,0 +1,4 @@
+﻿  SPO_Pr5.cpp
+C:\Github\SPO\task 5\SPO_Pr5\SPO_Pr5.cpp(31,8): warning C4101: 'nCount': unreferenced local variable
+C:\Github\SPO\task 5\SPO_Pr5\SPO_Pr5.cpp(64,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  SPO_Pr5.vcxproj -> C:\Github\SPO\task 5\Debug\SPO_Pr5.exe

@@ -1,0 +1,4 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\maxos\YandexDisk\Учеба\6 семестр\Системное программное обеспечение\пр3\pr3\ConsoleApplication2\ConsoleApplication2.cpp(254,61): error C2664: 'BOOL ExtTextOutW(HDC,int,int,UINT,const RECT *,LPCWSTR,UINT,const INT *)': cannot convert argument 6 from 'const char [1]' to 'LPCWSTR'
+C:\Users\maxos\YandexDisk\Учеба\6 семестр\Системное программное обеспечение\пр3\pr3\ConsoleApplication2\ConsoleApplication2.cpp(254,50): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Windows Kits\10\Include\10.0.18362.0\um\wingdi.h(5108,25): message : see declaration of 'ExtTextOutW'
